@@ -8,7 +8,7 @@ text = 'I dropped my phone in the toilet yesterday'
 
 tone_analyzer = ToneAnalyzerV3(
     version='2017-09-21',
-    iam_apikey='BCPnn-DtaBVZEcIU75mDen9uvl8KqrCx7LBUGaIGZ2PQ',
+    iam_apikey= [apikey],
     url='https://gateway-syd.watsonplatform.net/tone-analyzer/api'
 )
 
